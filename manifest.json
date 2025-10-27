@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Quote Cleaner",
+  "version": "1.0",
+  "description": "Replaces smart quotes with straight quotes on paste in editable elements.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
