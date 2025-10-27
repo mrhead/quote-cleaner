@@ -28,6 +28,11 @@ To use it in Firefox:
 ### 🔒 Permanent Installation
 
 To install it permanently:
+
+- Go to https://github.com/mrhead/quote-cleaner/releases and download the latest `.xpi` file in Firefox.
+
+Alternatively, you can build it yourself and upload it to Mozilla AMO.
+
 - [Submit it as an unlisted extension to Mozilla AMO](https://addons.mozilla.org/en-US/developers/addon/submit/upload-unlisted)
 - Upload the `.zip` file generated in `dist/quote-cleaner.zip`
 
