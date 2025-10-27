@@ -3,6 +3,12 @@
   "name": "Quote Cleaner",
   "version": "1.0",
   "description": "Replaces smart quotes with straight quotes on paste in editable elements.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "quote-cleaner@example.com"
+    }
+  },
+
   "permissions": [],
   "content_scripts": [
     {
